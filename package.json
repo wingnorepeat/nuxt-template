@@ -1,0 +1,18 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev --dotenv .env.development",
+    "build:uat": "nuxt build --dotenv .env.uat",
+    "build:prod": "nuxt build --dotenv .env.prod",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18",
+    "nuxt": "^3.5.2",
+    "sass": "^1.63.2"
+  }
+}
