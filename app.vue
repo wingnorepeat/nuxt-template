@@ -16,4 +16,9 @@ const appConfig = useAppConfig(); // 获取应用配置
 .welcome {
   color: $primary;
 }
+.main-item {
+  color: rgb(56, 113, 238);
+  cursor: pointer;
+  margin-bottom: 30px;
+}
 </style>
